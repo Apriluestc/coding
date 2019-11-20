@@ -17,11 +17,15 @@ TARGET11 	:= test_reversePair
 TARGET12 	:= test_countK
 TARGET13 	:= test_missingNumber
 TARGET14 	:= test_twoSum
+TARGET15 	:= test_numberOf1
+TARGET16 	:= test_power
+TARGET17 	:= test_oneTomax
 
 all : \
 	$(TARGET1) $(TARGET2) $(TARGET3) $(TARGET4) $(TARGET5) \
 	$(TARGET6) $(TARGET7) $(TARGET8) $(TARGET9) $(TARGET10) \
-	$(TARGET11) $(TARGET12) $(TARGET13) $(TARGET14)
+	$(TARGET11) $(TARGET12) $(TARGET13) $(TARGET14) $(TARGET15) \
+	$(TARGET16) $(TARGET17)
 
 $(TARGET1) : duplicate.cpp
 	$(CXX) $^ -o $@ $(FD_FLAG) $(FLAG)
@@ -65,10 +69,20 @@ $(TARGET13) : missingNumber.cpp
 $(TARGET14) : twoSum.cpp
 	$(CXX) $^ -o $@ $(FD_FLAG) $(FLAG)
 
+$(TARGET15) : numberOf1.cpp
+	$(CXX) $^ -o $@ $(FD_FLAG) $(FLAG)
+
+$(TARGET16) : power.cpp
+	$(CXX) $^ -o $@ $(FD_FLAG) $(FLAG)
+
+$(TARGET17) : oneTomax.cpp
+	$(CXX) $^ -o $@ $(FD_FLAG) $(FLAG)
+
 .PHONY :
 
 clean :
 	rm \
 		$(TARGET1) $(TARGET2) $(TARGET3) $(TARGET4) $(TARGET5) \
 		$(TARGET6) $(TARGET7) $(TARGET8) $(TARGET9) $(TARGET10) \
-		$(TARGET11) $(TARGET12) $(TARGET13) $(TARGET14)
+		$(TARGET11) $(TARGET12) $(TARGET13) $(TARGET14) $(TARGET15) \
+		$(TARGET16) $(TARGET17)
