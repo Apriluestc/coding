@@ -1,24 +1,24 @@
 ### 剑指 offer
 
-- 数组中重复的数字
-- 二维数组的查找
+- [数组中重复的数字](https://github.com/Apriluestc/coding/blob/master/nowcoder/duplicate.cpp)
+- [二维数组的查找](https://github.com/Apriluestc/coding/blob/master/nowcoder/matrix.cpp)
 - 替换空格
 - 从尾到头打印链表
 - 重建二叉树
 - 二叉树的下一个节点
-- 用两个栈实现队列
-- 斐波那契数列
+- [用两个栈实现队列](https://github.com/Apriluestc/coding/blob/master/nowcoder/queue.cpp)
+- [斐波那契数列](https://github.com/Apriluestc/coding/blob/master/nowcoder/fibonacci.cpp)
 - 旋转数组的最小数字
-- 矩阵中的路径
-- 机器人的运动范围
-- 剪绳子
-- 二进制中 1 的个数
-- 数值的整数次方
-- 打印从 1 到 最大的 n 位数
+- [矩阵中的路径](https://github.com/Apriluestc/coding/blob/master/nowcoder/haspath.cpp)
+- [机器人的运动范围](https://github.com/Apriluestc/coding/blob/master/nowcoder/range.cpp)
+- [剪绳子](https://github.com/Apriluestc/coding/blob/master/nowcoder/cutting.cpp)
+- [二进制中 1 的个数](https://github.com/Apriluestc/coding/blob/master/nowcoder/numberOf1.cpp)
+- [数值的整数次方](https://github.com/Apriluestc/coding/blob/master/nowcoder/power.cpp)
+- [打印从 1 到 最大的 n 位数](https://github.com/Apriluestc/coding/blob/master/nowcoder/oneTomax.cpp)
 - 删除链表的节点
 - 正则表达式匹配
 - 表示数值的字符串
-- 调整数组顺序使得奇数位于偶数前面
+- [调整数组顺序使得奇数位于偶数前面](https://github.com/Apriluestc/coding/blob/master/nowcoder/reorder.cpp)
 - 链表中倒数第 k 个节点
 - 链表中环的入口节点
 - 反转链表
@@ -26,7 +26,7 @@
 - 树的子结构
 - 二叉树镜像
 - 对称二叉树
-- 顺时针打印矩阵
+- [顺时针打印矩阵](https://github.com/Apriluestc/coding/blob/master/nowcoder/printmatrix.cpp)
 - 包含 min 函数的栈
 - 栈的压入、弹出序列
 - 从上到下打印二叉树
@@ -36,30 +36,31 @@
 - 二叉搜索树与双向链表
 - 序列化二叉树
 - 字符串的排列
-- 数组中出现次数超过一半的数字
-- 最小的 k 个数
+- [数组中出现次数超过一半的数字](https://github.com/Apriluestc/coding/blob/master/nowcoder/moreThanHalf.cpp)
+- [最小的 k 个数](https://github.com/Apriluestc/coding/blob/master/nowcoder/topk.cpp)
 - 数据流中的中位数
-- 连续子数组的最大和
+- [连续子数组的最大和](https://github.com/Apriluestc/coding/blob/master/nowcoder/maxSubArray.cpp)
 - 1 ~ n 整数中 1 出现的次数
 - 数字序列中某一位的数字
-- 把数组排成最小的数
+- [把数组排成最小的数](https://github.com/Apriluestc/coding/blob/master/nowcoder/minNumber.cpp)
 - 把数字翻译成字符串
-- 礼物的最大价值
+- [礼物的最大价值](https://github.com/Apriluestc/coding/blob/master/nowcoder/maxval.cpp)
 - 最长不含重复字符的子字符串
 - 丑数
 - 第一个只出现一次的字符
-- 数组中的逆序对
+- [数组中的逆序对](https://github.com/Apriluestc/coding/blob/master/nowcoder/reversePairs.cpp)
 - 两个链表的第一个公共节点
-- 在排序数组中查找数字
+- [在排序数组中查找数字](https://github.com/Apriluestc/coding/blob/master/nowcoder/countK.cpp)
+- [缺失的数字](https://github.com/Apriluestc/coding/blob/master/nowcoder/missingNumber.cpp)
 - 二叉搜索数的第 k 大节点
 - 二叉树的深度
 - 数组中数字出现的次数
-- 和为 s 的数字
+- [和为 s 的数字](https://github.com/Apriluestc/coding/blob/master/nowcoder/twoSum.cpp)
 - 翻转字符串
 - 队列的最大值
 - n 个骰子的点数
 - 扑克牌中的顺子
 - 圆圈中最后剩下的数字
 - 股票的最大利润
-- 求 1+2+3+···+n
+- [求 1+2+3+···+n](https://github.com/Apriluestc/coding/blob/master/nowcoder/nSum.cpp)
 - 不用加减乘除做加法
