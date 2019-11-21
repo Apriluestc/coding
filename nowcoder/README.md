@@ -56,9 +56,9 @@
 - [和为 s 的数字](https://github.com/Apriluestc/coding/blob/master/nowcoder/twoSum.cpp)
 - 翻转字符串
 - 队列的最大值
-- n 个骰子的点数
+- [n 个骰子的点数](https://github.com/Apriluestc/coding/blob/master/nowcoder/probability.cpp)
 - 扑克牌中的顺子
 - 圆圈中最后剩下的数字
 - 股票的最大利润
 - [求 1+2+3+···+n](https://github.com/Apriluestc/coding/blob/master/nowcoder/nSum.cpp)
-- 不用加减乘除做加法
+- [不用加减乘除做加法](https://github.com/Apriluestc/coding/blob/master/nowcoder/add.cpp)
