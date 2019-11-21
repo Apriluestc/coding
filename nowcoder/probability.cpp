@@ -30,7 +30,7 @@ public:
     }
 };
 
-void test();
+void test() {}
 
 int main()
 {
