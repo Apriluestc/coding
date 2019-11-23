@@ -20,10 +20,16 @@ using namespace std;
 template<typename T>
 class Queue {
 public:
+
+    // 入队列
+    // 将第一个栈当作入队
+    // 直接 push 就好
     void push(const T& val) {
         s1.push(val);
         ++count_;
     }
+
+    // 第二个栈用作出队列
     T pop() {
         if (s2.empty()) {
             while (!s1.empty()) {
@@ -36,6 +42,8 @@ public:
         s2.pop();
         return pop_element;
     }
+    int front();
+    int back();
     int size() {
         return count_;;
     }

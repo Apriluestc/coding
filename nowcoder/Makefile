@@ -27,13 +27,14 @@ TARGET21 	:= test_maxval
 TARGET22 	:= test_cutting
 TARGET23 	:= test_probability
 TARGET24 	:= test_add
+TARGET25 	:= test_popOrder
 
 all : \
 	$(TARGET1) $(TARGET2) $(TARGET3) $(TARGET4) $(TARGET5) \
 	$(TARGET6) $(TARGET7) $(TARGET8) $(TARGET9) $(TARGET10) \
 	$(TARGET11) $(TARGET12) $(TARGET13) $(TARGET14) $(TARGET15) \
 	$(TARGET16) $(TARGET17) $(TARGET18) $(TARGET19) $(TARGET20) \
-	$(TARGET21) $(TARGET22) $(TARGET24) $(TARGET23)
+	$(TARGET21) $(TARGET22) $(TARGET24) $(TARGET23) $(TARGET25)
 
 $(TARGET1) : duplicate.cpp
 	$(CXX) $^ -o $@ $(FD_FLAG) $(FLAG)
@@ -107,7 +108,7 @@ $(TARGET23) : probability.cpp
 $(TARGET24) : add.cpp
 	$(CXX) $^ -o $@ $(FD_FLAG) $(FLAG)
 
-$(TARGET25) : mirror.cpp
+$(TARGET25) : popOrder.cpp
 	$(CXX) $^ -o $@ $(FD_FLAG) $(FLAG)
 
 .PHONY :
@@ -118,4 +119,4 @@ clean :
 		$(TARGET6) $(TARGET7) $(TARGET8) $(TARGET9) $(TARGET10) \
 		$(TARGET11) $(TARGET12) $(TARGET13) $(TARGET14) $(TARGET15) \
 		$(TARGET16) $(TARGET17) $(TARGET18) $(TARGET19) $(TARGET20) \
-		$(TARGET21) $(TARGET22) $(TARGET24) $(TARGET23)
+		$(TARGET21) $(TARGET22) $(TARGET24) $(TARGET23) $(TARGET25)
